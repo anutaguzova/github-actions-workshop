@@ -2,7 +2,7 @@ name: CI/CD Pipeline
 
 on: push
 env:
-  NODE_VERSION: "20.08"
+  NODE_VERSION: "18.18"
 jobs:
   hello-world:
     runs-on: ubuntu-latest
